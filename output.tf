@@ -4,3 +4,4 @@ output "public_instance_ip" {
 output "private_instance_ip" {
   value = aws_instance.private_ec2.private_ip
 }
+//output "public_instance_id" {
